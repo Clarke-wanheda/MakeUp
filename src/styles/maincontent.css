@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 1rem nunito;
+}
+.design{
+    width: 100%;
+    justify-content: center;
+
+    min-height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+    /* margin: 100px 50px 30px 50px; */
+    margin-top: 1rem
+    ;
+    flex-wrap: wrap;
+    background-color: hsla(208, 100%, 97%, 0.493) ;
+    
+    border-radius: 100px;
+
+}
+.design h1{
+    padding: 2rem;
+    font: 3rem poppins;
+}
+
+.firstbox{
+    min-height: 50vh;
+    
+    display: flex;
+    gap: .5rem;
+    justify-content:space-evenly;  
+    /* align-content: flex-end; */
+    flex-wrap: wrap;
+       
+
+
+}
+.box{
+    width: 250px;
+    height: 250px;
+    /* background-color: black; */
+    border: 1px solid black;
+    color: rebeccapurple;
+    text-align: center;
+    border-radius: 1rem;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 600;
+    color: brown;
+    
+   
+       
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px
+
+}
+.box:hover{
+    background-color:hsla(0, 0%, 0%, 0.164);
+    
+    
+}
+ .secbox{
+    min-height: 50vh;
+    display: flex;
+     /* flex-direction: column;  */
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:space-evenly;
+} 
+
+hr{
+    width: 80%;
+    translate: 150px
+     ;
+}
+.thbox{
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:space-evenly;
+}
+  

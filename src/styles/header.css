@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200&display=swap');
+body{
+    font: 1.5rem,Nunito;
+    min-height: 100vh;
+}
+.offercontent{
+    width: 100%; 
+    background-color: black;
+    color: white;
+    font: .7rem monospace;
+    min-height: 5vh;
+    padding: .5rem;
+    text-align: center;
+    word-spacing: .3rem;
+    letter-spacing:.3em;
+    
+}
+.headercontent{
+    height: 100px;
+   
+background-color: lightslategray;
+
+}
+.navbar{
+
+display: flex;
+text-align: center;
+justify-content: center;
+padding: 1rem;
+font: 1rem poppins;
+font-weight: 600;
+letter-spacing: .15rem;
+
+
+}
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    display: flex;
+    
+      padding: .5rem 5rem 1rem 3rem; 
+    
+    color: black;
+    
+}
+.navbar li a:hover{
+    color:orangered;
+  
+    
+}
+.headerimg img{
+       
+    display: flex;
+    translate: 500px 10px;
+
+}
+
+
+
+    
+

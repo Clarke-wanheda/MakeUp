@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 1rem Nunito;
+}
+.footer{
+    background-color: black;
+    min-height: auto;
+  
+    color: white;
+    /* width: 100%; */
+    
+}
+.footerheading{
+    font: 1.5em sans-serif; 
+    /* translate: 3rem 2rem; */
+    letter-spacing: 1px;
+   
+    padding: 2rem 0rem 1rem 5rem;
+}
+.footercont{
+    font: 1rem arial;
+    padding: 0rem 0rem 1rem 5rem;
+    letter-spacing: .1rem;
+    word-spacing: .3rem;  
+}
+.servicecont h3,li{
+     justify-content: center;
+     align-content: center;
+
+padding: .1rem;
+     
+    
+}  
+.servicecont{
+ margin:  -70px 0px 0px 650px;
+
+}
+.addcont{
+    float: right;
+    color: lightcoral;
+    margin: -150px 200px 0px 10px;
+    width: 200px;
+}
+ 
