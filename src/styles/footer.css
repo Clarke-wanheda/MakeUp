@@ -31,18 +31,22 @@ body{
      justify-content: center;
      align-content: center;
 
-padding: .1rem;
-     
+padding: .1rem;     
     
 }  
-.servicecont{
- margin:  -70px 0px 0px 650px;
 
-}
 .addcont{
     float: right;
     color: lightcoral;
     margin: -150px 200px 0px 10px;
     width: 200px;
+    
 }
- 
+ .footercont1{
+    display: flex;
+   padding:2rem;
+
+    position: relative;
+
+
+}
